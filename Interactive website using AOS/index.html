@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate on scroll</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1><span>International Photo </span>Gallery</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </header>
+    <main class="container">
+        <section class="card" data-aos-offset="200" 1>
+            <img src="assets/images/stock15.jpg">
+            <div>
+                <h3>Photo 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img src="assets/images/stock16.jpg">
+            <div>
+                <h3>Photo 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img src="assets/images/stock17.jpg">
+            <div>
+                <h3>Photo 3</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-left">
+            <img src="assets/images/stock18.jpg">
+            <div>
+                <h3>Photo 4</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+        </section>
+        <section class="card" data-aos="fade-right">
+            <img src="assets/images/stock20.jpg">
+            <div>
+                <h3>Photo 5</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+        </section>
+    </main>
+</body>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 500
+    });
+</script>
+
+</html>
